@@ -14,44 +14,57 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
   box-sizing: border-box;
-  background-color: white; }
+  background-color: white;
+  background-color: #141415; }
 
 .HomePage {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 6rem;
-  background-color: #465C8B; }
+  padding: 3rem 6rem; }
   .HomePage__directory {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
     .HomePage__directory__item {
-      min-width: 30%;
-      height: 20rem;
+      min-width: 20%;
+      height: 35rem;
       flex: 1 1 auto;
       display: flex;
       align-items: center;
       justify-content: center;
       border: 1px solid black;
-      margin: 0 7.5px 15px; }
+      margin: 0 7.5px 15px;
+      overflow: hidden; }
+      .HomePage__directory__item:hover {
+        cursor: pointer; }
+        .HomePage__directory__item:hover .background-image {
+          transform: scale(1.05);
+          transition: transform 1s ease-in-out; }
+      .HomePage__directory__item .background-image {
+        width: 100%;
+        height: 100%;
+        background-position: top;
+        background-size: cover; }
       .HomePage__directory__item:first-child {
         margin-right: 7.5px; }
       .HomePage__directory__item:last-child {
         margin-left: 7.5px; }
       .HomePage__directory__item__container {
         height: 6rem;
-        padding: 0 4rem;
+        padding: 0 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 1px solid black; }
+        background-image: linear-gradient(to right bottom, rgba(20, 20, 21, 0.9), rgba(26, 41, 48, 0.9));
+        position: absolute; }
         .HomePage__directory__item__container .item__title {
           font-weight: bold;
           margin-bottom: 0.5rem;
-          font-size: 3rem; }
+          font-size: 3rem;
+          color: #C5C1C0; }
 
 .Container {
   max-width: 1280px;
