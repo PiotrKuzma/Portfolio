@@ -3,16 +3,23 @@
 
 
 import React from 'react';
+import { Switch, Route } from 'react-router-dom'
+
 
 
 
 import './App.css';
 import Home from "./components/Pages/Home"
+import Deck from './components/Pages/Deck'
 
 function App () {
   return(
     <div>
-      <Home/>
+      <Switch>
+      <Route exact path='/' component={Home} />
+      <Route path='/deck/:' component={Deck} />
+
+      </Switch>
     </div>
 
   )

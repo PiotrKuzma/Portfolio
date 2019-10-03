@@ -54,10 +54,14 @@ body {
         flex-wrap: wrap;
         justify-content: space-between;
 
+        a {
+            min-width: 20%;
+        }
+
         &__item {
             
             min-width: 20%;
-            height: 35rem;
+            height: 33rem;
             flex: 1 1 auto;
             display: flex;
             align-items: center;

@@ -1,7 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-export const Header = (props) => {
-    console.log(props)
-    return(<div className="Header">Hi</div>)
+export const Header = () => {
+    
+    return(
+        <Link to="/">
+        <div className="Header">Hi</div>
+        </Link>)
 
 }
