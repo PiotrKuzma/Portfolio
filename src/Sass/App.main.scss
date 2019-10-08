@@ -1,0 +1,183 @@
+$fresh: #F7EF6A;
+$vermillion: #93C178;
+$sunshine: #465C8B;
+$clean: #DFDCE3;
+$steel: #0A1612;
+$denim: #1A2930;
+$screen: #C5C1C0;
+$fire: #DE0F10;
+$void: #141415;
+$burgund: #6A2126;
+
+*,
+*::after,
+*::before {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+
+
+
+}
+
+
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    box-sizing: border-box;
+    background-color: white;
+    background-color: $void;
+
+}
+
+
+.HomePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 6rem;
+    
+
+    &__directory {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        a {
+            min-width: 20%;
+        }
+
+        &__item {
+            
+            min-width: 20%;
+            height: 33rem;
+            flex: 1 1 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+            margin: 0 7.5px 15px;
+            overflow: hidden;
+
+            &:hover {
+                cursor: pointer;
+
+                & .background-image {
+                    transform: scale(1.05);
+                    transition: transform 1s ease-in-out;
+                }
+                
+            }
+
+            .background-image{
+                width: 100%;
+                height: 100%;
+                background-position: top;
+                background-size: cover;
+            }
+
+
+            &:first-child {
+            margin-right: 7.5px;
+            }
+
+            &:last-child {
+            margin-left: 7.5px;
+            }
+
+            &__container {
+                height: 6rem;
+                padding: 0 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-image: linear-gradient(to right bottom,
+                rgba($void, 0.9),
+                rgba($denim, 0.9));
+                position: absolute;
+                
+
+
+                .item__title{
+                    font-weight: bold;
+                    margin-bottom: 0.5rem;
+                    font-size: 3rem;
+                    color: $screen;
+                    
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+.Container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 4rem;
+    color: $screen;
+    text-align: center;
+    background-color: $void;
+
+}
+
+.Header {
+    
+    padding: 1rem;
+    justify-content: center;
+    background-color: $screen;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5rem;
+    
+
+}
+
+.Deck {
+    
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem;
+    justify-content: center;
+    background-color: $void;
+
+   
+
+
+   
+
+    &__cardImage {
+        transition: all 0.5s;
+        cursor: pointer;
+        
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+  }
+
