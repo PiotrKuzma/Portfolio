@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "gh-pages": "^2.1.1",
+=======
+>>>>>>> 03a3bac4e7e912173265395374f671c3eed5b69c
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.2",

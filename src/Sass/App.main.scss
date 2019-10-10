@@ -45,6 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     padding: 2rem 4rem;
     max-width: 1440px;
     margin: 0 auto;
@@ -66,6 +67,9 @@ body {
         color: transparent;
 
     }
+=======
+    padding: 3rem 6rem;
+>>>>>>> 03a3bac4e7e912173265395374f671c3eed5b69c
     
 
     &__directory {
@@ -81,7 +85,11 @@ body {
         &__item {
             
             min-width: 20%;
+<<<<<<< HEAD
             height: 30rem;
+=======
+            height: 33rem;
+>>>>>>> 03a3bac4e7e912173265395374f671c3eed5b69c
             flex: 1 1 auto;
             display: flex;
             align-items: center;
@@ -90,6 +98,7 @@ body {
             margin: 0 7.5px 15px;
             overflow: hidden;
 
+<<<<<<< HEAD
             @media only screen and(max-width: 900px) {
                 min-width: 35%;
             }
@@ -97,6 +106,8 @@ body {
                 min-width: 45%;
             }
 
+=======
+>>>>>>> 03a3bac4e7e912173265395374f671c3eed5b69c
             &:hover {
                 cursor: pointer;
 
@@ -135,6 +146,7 @@ body {
                 rgba($denim, 0.9));
                 position: absolute;
                 
+<<<<<<< HEAD
                 
 
 
@@ -152,6 +164,15 @@ body {
                     background-clip: text;
                     -moz-background-clip: text;
                     color: transparent;
+=======
+
+
+                .item__title{
+                    font-weight: bold;
+                    margin-bottom: 0.5rem;
+                    font-size: 3rem;
+                    color: $screen;
+>>>>>>> 03a3bac4e7e912173265395374f671c3eed5b69c
                     
                 }
             }
@@ -169,6 +190,7 @@ body {
 .Container {
     max-width: 1280px;
     margin: 0 auto;
+<<<<<<< HEAD
     position: relative;
 }
 
@@ -179,14 +201,36 @@ body {
     padding: 1rem;
     justify-content: center;
     
+=======
+}
+
+.title {
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 4rem;
+    color: $screen;
+    text-align: center;
+    background-color: $void;
+
+}
+
+.Header {
+    
+    padding: 1rem;
+    justify-content: center;
+    background-color: $screen;
+>>>>>>> 03a3bac4e7e912173265395374f671c3eed5b69c
     position: fixed;
     top: 0;
     left: 0;
     width: 5rem;
+<<<<<<< HEAD
 
     &__back {
         fill: $burgund;
     }
+=======
+>>>>>>> 03a3bac4e7e912173265395374f671c3eed5b69c
     
 
 }
