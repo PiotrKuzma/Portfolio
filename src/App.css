@@ -21,7 +21,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 6rem; }
+  padding: 2rem 4rem;
+  max-width: 1440px;
+  margin: 0 auto; }
+  .HomePage__title {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right bottom, rgba(197, 193, 192, 0.9), rgba(222, 15, 16, 0.9));
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    color: transparent; }
   .HomePage__directory {
     width: 100%;
     display: flex;
@@ -31,7 +44,7 @@ body {
       min-width: 20%; }
     .HomePage__directory__item {
       min-width: 20%;
-      height: 33rem;
+      height: 30rem;
       flex: 1 1 auto;
       display: flex;
       align-items: center;
@@ -39,6 +52,12 @@ body {
       border: 1px solid black;
       margin: 0 7.5px 15px;
       overflow: hidden; }
+      @media only screen and (max-width: 900px) {
+        .HomePage__directory__item {
+          min-width: 35%; } }
+      @media only screen and (max-width: 410px) {
+        .HomePage__directory__item {
+          min-width: 45%; } }
       .HomePage__directory__item:hover {
         cursor: pointer; }
         .HomePage__directory__item:hover .background-image {
@@ -63,31 +82,31 @@ body {
         background-image: linear-gradient(to right bottom, rgba(20, 20, 21, 0.9), rgba(26, 41, 48, 0.9));
         position: absolute; }
         .HomePage__directory__item__container .item__title {
-          font-weight: bold;
-          margin-bottom: 0.5rem;
-          font-size: 3rem;
-          color: #C5C1C0; }
+          font-family: Lato;
+          font-size: 2rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          background-image: linear-gradient(to right bottom, rgba(197, 193, 192, 0.9), rgba(222, 15, 16, 0.9));
+          display: inline-block;
+          -webkit-background-clip: text;
+          background-clip: text;
+          -moz-background-clip: text;
+          color: transparent; }
 
 .Container {
   max-width: 1280px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
-.title {
-  font-family: Lora;
-  font-weight: 600;
-  font-size: 4rem;
-  color: #C5C1C0;
-  text-align: center;
-  background-color: #141415; }
-
-.Header {
+.Arrow {
   padding: 1rem;
   justify-content: center;
-  background-color: #C5C1C0;
   position: fixed;
   top: 0;
   left: 0;
   width: 5rem; }
+  .Arrow__back {
+    fill: #6A2126; }
 
 .Deck {
   display: flex;

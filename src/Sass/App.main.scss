@@ -45,7 +45,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem 6rem;
+    padding: 2rem 4rem;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &__title {
+        margin-bottom: 3rem;
+        
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right bottom,
+            rgba($screen, 0.9),
+            rgba($fire, 0.9));
+
+        display: inline-block;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -moz-background-clip: text;
+        color: transparent;
+
+    }
     
 
     &__directory {
@@ -61,7 +81,7 @@ body {
         &__item {
             
             min-width: 20%;
-            height: 33rem;
+            height: 30rem;
             flex: 1 1 auto;
             display: flex;
             align-items: center;
@@ -69,6 +89,13 @@ body {
             border: 1px solid black;
             margin: 0 7.5px 15px;
             overflow: hidden;
+
+            @media only screen and(max-width: 900px) {
+                min-width: 35%;
+            }
+            @media only screen and(max-width: 410px) {
+                min-width: 45%;
+            }
 
             &:hover {
                 cursor: pointer;
@@ -108,13 +135,23 @@ body {
                 rgba($denim, 0.9));
                 position: absolute;
                 
+                
 
 
-                .item__title{
-                    font-weight: bold;
-                    margin-bottom: 0.5rem;
-                    font-size: 3rem;
-                    color: $screen;
+                .item__title {
+                    font-family: Lato;
+                    font-size: 2rem;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    background-image: linear-gradient(to right bottom,
+                        rgba($screen, 0.9),
+                        rgba($fire, 0.9));
+
+                    display: inline-block;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -moz-background-clip: text;
+                    color: transparent;
                     
                 }
             }
@@ -132,27 +169,24 @@ body {
 .Container {
     max-width: 1280px;
     margin: 0 auto;
+    position: relative;
 }
 
-.title {
-    font-family: Lora;
-    font-weight: 600;
-    font-size: 4rem;
-    color: $screen;
-    text-align: center;
-    background-color: $void;
 
-}
 
-.Header {
+.Arrow {
     
     padding: 1rem;
     justify-content: center;
-    background-color: $screen;
+    
     position: fixed;
     top: 0;
     left: 0;
     width: 5rem;
+
+    &__back {
+        fill: $burgund;
+    }
     
 
 }

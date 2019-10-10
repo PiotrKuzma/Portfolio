@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Header} from '../Header.comp'
+import {Arrow} from '../Arrow.comp'
 import { withRouter } from 'react-router-dom'
 
 class Deck extends Component { 
@@ -36,7 +36,7 @@ class Deck extends Component {
   render () {
     return (
     <div className="Container"> 
-      <Header/>
+      <Arrow/>
       <div className="Deck">
           
         {this.state.cards.map(card => (
