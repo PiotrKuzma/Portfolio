@@ -1,3 +1,10 @@
+$sand: #C5C6C7;
+$navy: #1F2833;
+$void: #0B0C10;
+$striking: #66FCF1;
+$pure: #45A29E;
+
+
 *,
 *::after,
 *::before {
@@ -13,16 +20,18 @@ body {
   font-size: 1rem;
   line-height: 1.7;
   box-sizing: border-box;
+  background-color: $navy;
   
   .wrapper {
     max-width: 95rem;
     margin: 0 auto;
+   
   }
 
   .main-container{
     margin-top: 5rem;
     
-    background-color: coral;
+    
   }
 
 }

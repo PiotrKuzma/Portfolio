@@ -1,11 +1,12 @@
 import React from 'react'
+import "./Projects.style.scss"
 
 
 
 
 const Projects = () => (
     <div className="HomePage">
-        <h1 className="HomePage__title">Projects here</h1>
+        <h2 className="HomePage__title">My projects</h2>
         
     </div>
 )

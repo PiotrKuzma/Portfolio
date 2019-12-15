@@ -1,7 +1,13 @@
+$sand: #C5C6C7;
+$navy: #1F2833;
+$void: #0B0C10;
+$striking: #66FCF1;
+$pure: #45A29E;
+
 .sideNav {
     height: 100vh;
-    background-color: white;
-    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    background-color: $void;
+    box-shadow: 2px 0px 2px $pure;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,20 +26,20 @@
        
 
         li {
-            margin: 0.5rem 0;
+            margin: 1.5rem 0;
         }
 
         &__item {
 
             text-decoration: none;
-            color: black;
+            color: $sand;
             font-size: 1.2rem;
     
         }
     
         &__item:hover, &__item:active {
     
-            color: royalblue;
+            color: $pure;
         }
 
     }

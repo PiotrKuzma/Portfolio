@@ -1,3 +1,9 @@
+$sand: #C5C6C7;
+$navy: #1F2833;
+$void: #0B0C10;
+$striking: #66FCF1;
+$pure: #45A29E;
+
 .toggle-button {
 
     height: 2rem;
@@ -13,7 +19,7 @@
 
 
     &__line {
-        background-color: white;
+        background-color: $pure;
         width: 2.5rem;
         height: 2px;
 
@@ -21,8 +27,9 @@
 
     
 }
-.toggle-button:focus {
+.toggle-button:focus, :active {
 
   outline: none;
+  
     
 }

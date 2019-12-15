@@ -1,11 +1,11 @@
 import React from 'react'
-
+import "./Contact.style.scss"
 
 
 
 const Contact = () => (
     <div className="HomePage">
-        <h1 className="HomePage__title">Contact here</h1>
+        <h2 className="HomePage__title">Contact me</h2>
         
     </div>
 )

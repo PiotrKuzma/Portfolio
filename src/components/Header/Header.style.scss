@@ -1,22 +1,46 @@
+$sand: #C5C6C7;
+$navy: #1F2833;
+$void: #0B0C10;
+$striking: #66FCF1;
+$pure: #45A29E;
+
 .header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: black;
-    height: 5rem;
+    background-color: $navy;
+    height: 7rem;
+    z-index: 2;
+    padding: 1rem;
+
+    @media only screen and (max-width: 750px) {
+        height: 3rem;
+    }
 
     &__nav {
 
         display: flex;
         height: 100%;
         align-items: center;
-        padding: 0 2rem;
+        padding: 1rem 1rem 4rem 1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+
+        @media only screen and (max-width: 750px) {
+            padding: 1rem;
+        }
 
 
         &__burger {
+            background-color: none;
+            background-color: $void;
+            width: 3.1rem;
+            padding: 0.3rem;
            @media only screen and (min-width: 750px) {
             display: none;
+            
+            
 
            }
 
@@ -37,18 +61,31 @@
                 justify-content: space-around;
 
 
+
                 &__item {
 
                     text-decoration: none;
-                    color:white;
+                    color:$sand;
+                    width: 6rem;
+                    height: 4rem;
+                    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 94%, 24% 94%, 0% 60%, 10% 20%);
+                    background-image: linear-gradient(to right bottom,
+                    rgba($pure, 0.4),
+                    rgba(transparent, 0.2));
+                    padding: 1rem;
                     
+                    
+                   
 
                    
                 }
                 
                 &__item:hover, &__item:active {
 
-                    color: royalblue;
+                    color: $pure;
+                    background-image: linear-gradient(to right bottom,
+                    rgba($void, 0.4),
+                    rgba(transparent, 0.2));
                 }
 
               
