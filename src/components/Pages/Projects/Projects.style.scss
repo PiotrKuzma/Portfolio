@@ -6,7 +6,7 @@ $pure: #45A29E;
 
 .Projects {
 
-    margin-top: 10rem;
+    margin-top: 7rem;
 
     &__title {
 
@@ -21,7 +21,7 @@ $pure: #45A29E;
     }
 
     &__board {
-        margin-top: 3rem;
+        margin-top: 1rem;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -31,9 +31,9 @@ $pure: #45A29E;
         &__item {
 
             width: 18rem;
-            height: 28rem;
+            height: auto;
             margin-bottom: 2rem;
-            
+            margin-top: 2rem;
             display: flex;
             flex-direction: column;
             
@@ -41,10 +41,13 @@ $pure: #45A29E;
 
             &__img-container {
 
-                width: 18rem;
-                height: 20rem;
+                width: 228px;
+                height: 480px;
                 margin-bottom: 1rem;
                 overflow: hidden;
+                box-shadow: 0 1rem 1.5rem rgba($pure, 0.15);
+
+               
                 
 
 
@@ -63,9 +66,16 @@ $pure: #45A29E;
             &__title {
                 color: $sand;
                 font-size: 1.2rem;
-
+                margin-bottom: 1rem;
                 align-self: center;
 
+            }
+
+            &__desc {
+                font-size: 0.8rem;
+                height: 6rem;
+                color: $sand;
+                max-width:14rem;
             }
 
             &__links {

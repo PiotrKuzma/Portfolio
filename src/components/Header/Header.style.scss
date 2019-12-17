@@ -17,6 +17,9 @@ $pure: #45A29E;
     @media only screen and (max-width: 750px) {
         height: 3rem;
     }
+    @media only screen and (max-width: 749px) {
+        z-index: -2;
+    }
 
     &__nav {
 

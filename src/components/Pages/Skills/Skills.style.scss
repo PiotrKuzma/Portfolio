@@ -15,7 +15,9 @@ $pure: #45A29E;
         text-align: center;
         color: $sand;
 
-        
+        @media only screen and(max-width: 410px) {
+            font-size: 1.4rem;
+        }
 
     }
 

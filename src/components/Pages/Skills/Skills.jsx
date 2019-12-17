@@ -28,7 +28,7 @@ const Skills = () => (
                 <h3 className="section__skills__detail__name">Git</h3>
                 <p className="section__skills__detail__desc">
                     fetching, commiting, handling conflicts,
-                    creating remotes
+                    pushing to remotes
                 </p>
             </div>
             <div className="section__skills__detail">
@@ -69,9 +69,9 @@ const Skills = () => (
                 <div className="section__example__container">
                     <Team className="section__example__container__icon"/>
                     <p className="section__example__container__text">
-                        I worked with UI developer friend and created simple, elegant and responsive layouts,
+                        I worked with UI developer and created simple, elegant and responsive layouts -
                         using flexbox, media queries, Bootstrap 4 and explicit positioning.
-                        I designed components, used gradients, images, animations and psuedo classes.
+                        I fixed many bugs as requested and delivered simple components to merge them into complete website.
 
                     </p>
                 </div>
@@ -79,7 +79,8 @@ const Skills = () => (
                     <Code className="section__example__container__icon"/>
                     <p className="section__example__container__text">
                         I can create reusable components of JS code with classes and fetch external data.
-                        I am familiar with devtools when searching for bugs.
+                        I am familiar with devtools when searching for bugs. I was able to design simple architecture when guided
+                        and fixed bugs with documentation.
                         
 
                     </p>
@@ -88,7 +89,7 @@ const Skills = () => (
                     <Chart className="section__example__container__icon"/>
                     <p className="section__example__container__text">
                         I can work in Agile, speak with clients and teammates in english,
-                        polish and czech. Queries are fuel for my motivation and satisfaction.
+                        polish and czech. I enjoy problem solving and have good skills in workload management.
                         In my work i used ticket managers, sharepoint and implemented many 
                         quality and time-saving improvements for the company.
 
