@@ -35,7 +35,7 @@ const Skills = () => (
                 <Js className="section__skills__detail__icon"/>
                 <h3 className="section__skills__detail__name">Javascript</h3>
                 <p className="section__skills__detail__desc">
-                    classes, prototypes, scopes, async functions
+                    classes, prototypes, objects, async functions
                 </p>
             </div>
             <div className="section__skills__detail">
@@ -56,7 +56,7 @@ const Skills = () => (
                 <Sass className="section__skills__detail__icon"/>
                 <h3 className="section__skills__detail__name">Scss</h3>
                 <p className="section__skills__detail__desc">
-                    variables, BEM, node-sass or compilation with cmd line
+                    variables, BEM structure, node-sass or compilation with cmd line
                 </p>
             </div>
             

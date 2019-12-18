@@ -9,7 +9,6 @@ const sideDrawer = ({close}) => (
         <li><Link to='/' className="sideNav__list__item" onClick={close}>Home</Link></li>
         <li><Link to='/Skills' className="sideNav__list__item" onClick={close}>Skills</Link></li>
         <li><Link to='/Projects' className="sideNav__list__item" onClick={close}>Projects</Link></li>
-        <li><Link to='/Contact' className="sideNav__list__item" onClick={close}>Contact</Link></li>
         </ul>
     </nav>
 

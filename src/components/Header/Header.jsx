@@ -15,7 +15,6 @@ const Header = ({burgerFunctionality}) => (
                     <Link to='/' className="header__nav__links-container__list__item">Home</Link>
                     <Link to='/Skills' className="header__nav__links-container__list__item shape">Skills</Link>
                     <Link to='/Projects' className="header__nav__links-container__list__item">Projects</Link>
-                    <Link to='/Contact' className="header__nav__links-container__list__item">Contact</Link>
                 </ul>
             </div>
         </nav>

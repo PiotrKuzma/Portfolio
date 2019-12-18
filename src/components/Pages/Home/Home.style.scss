@@ -34,27 +34,28 @@ $pure: #45A29E;
 
     &__section {
         padding: 2rem;
+        
+        margin-bottom: 2rem;
 
         &__about {
             display: flex;
             flex-flow: row wrap;
-            justify-content: space-around;
+            justify-content: center;
             
                
             
 
             &__img-container {
-                width: 22rem;
-                height: 25rem;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
                 
-                background-image: linear-gradient(to right bottom,
-                rgba($pure, 0.4),
-                rgba($sand, 0.3)), url(./profka.jpg);
+                background-image: url(./avatar.jpg);
                 background-position: center;
                 background-repeat: no-repeat;
                 
                 overflow: hidden;
-                margin-top: 3rem;
+                margin-top: 6rem;
                 margin-right: 3rem;
                 box-shadow: 0 1rem 1.5rem rgba($pure, 0.15);
 
@@ -67,7 +68,7 @@ $pure: #45A29E;
 
             &__desc {
                 width: 30rem;
-                height: 30rem;
+                
                 margin-top: 5rem;
                 
 
@@ -88,6 +89,45 @@ $pure: #45A29E;
                         color: $pure;
                     }
                 }
+            }
+        }
+    }
+
+    .contact {
+
+       width: 100%;
+       
+      
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+
+        &__title {
+
+            min-width: 5rem;
+            color: $sand;
+            margin-bottom: 1rem;
+        }
+
+        &__container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            min-width: 20rem;
+
+            &__link {
+             fill: $sand;
+
+             &:hover {
+                 fill: $pure;
+             }
+
+            }
+
+            &__email {
+                color: $pure;
+
             }
         }
     }

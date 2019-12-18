@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Home.style.scss"
+import {ReactComponent as Github } from './icons/github.svg'
+import {ReactComponent as Linked } from './icons/linkedin.svg'
+
 
 
 
@@ -11,9 +14,7 @@ const Home = () => (
         <section className="HomePage__section">
             <div className="HomePage__section__about">
                 <div className="HomePage__section__about__img-container">
-                    {/* <img className="HomePage__section__about__img-container__img"
-                        src="https://avatars2.githubusercontent.com/u/50806122?s=460&v=4"
-                    /> */}
+                   
                 </div>
                 <div className="HomePage__section__about__desc">
                     <p className="HomePage__section__about__desc__text">
@@ -30,9 +31,26 @@ const Home = () => (
 
                 </div>
 
+
             </div>
 
         </section>
+
+        <section className="contact">
+            <h3 className="contact__title">Contact</h3>
+            <div className="contact__container">
+            <a className="contact__container__link" href="https://github.com/PiotrKuzma" target="_blank" rel="noopener">
+                <Github className="contact__container__link__icon"/>
+            </a>
+            <a className="contact__container__link" href="https://www.linkedin.com/in/piotr-ku%C5%BAma-a9861199/" target="_blank" rel="noopener">
+                <Linked className="contact__container__link__icon" />
+            </a>
+            <div className="contact__container__email">
+                <p>kuzma.boh@gmail.com</p>
+            </div>
+            </div>
+        </section>
+
         <footer className="footer">
             <p className="footer__copy">Copyright &copy; 2019 Piotr Kuźma</p>
         </footer>            
