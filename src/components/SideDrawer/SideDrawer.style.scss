@@ -6,7 +6,9 @@ $pure: #45A29E;
 
 .sideNav {
     height: 100vh;
-    background-color: $void;
+    background-image: linear-gradient(to right bottom,
+            rgba($void, 1),
+            rgba($navy, 1));
     box-shadow: 2px 0px 2px $pure;
     position: fixed;
     top: 0;
@@ -23,17 +25,25 @@ $pure: #45A29E;
         justify-content: center;
         margin-left: 3rem;
         height: 100vh;
+        
        
 
         li {
             margin: 1.5rem 0;
+            padding:0.5rem;
+            width: 10rem;
+            text-align: center;
+            border-radius: 2rem;
+            border: 1px solid $pure;
         }
 
         &__item {
 
             text-decoration: none;
             color: $sand;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
+            font-weight: 500;
+            letter-spacing: 3px;
     
         }
     

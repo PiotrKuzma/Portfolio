@@ -82,6 +82,9 @@ $pure: #45A29E;
 
                 display: flex;
                 margin-top: 1rem;
+                
+                display: flex;
+                padding-left: 1.5rem;
                
 
                 &__website {
@@ -90,11 +93,12 @@ $pure: #45A29E;
                     margin-right: 1.5rem;
                     width: 5rem;
                     height: 4rem;
-                    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 94%, 24% 94%, 0% 60%, 10% 20%);
+                    text-align: center;
                     background-image: linear-gradient(to right bottom,
                     rgba($pure, 0.4),
-                    rgba(transparent, 0.2));
+                    rgba($striking, 0.2));
                     padding: 1.2rem;
+                    border-radius: 2rem;
 
                     &:hover, &:active {
 
@@ -114,13 +118,16 @@ $pure: #45A29E;
     
                 &__code {
     
+                    display: block;
+                    margin-right: 1.5rem;
                     width: 5rem;
                     height: 4rem;
-                    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 94%, 24% 94%, 0% 60%, 10% 20%);
+                    text-align: center;
                     background-image: linear-gradient(to right bottom,
                     rgba($pure, 0.4),
-                    rgba(transparent, 0.2));
+                    rgba($striking, 0.2));
                     padding: 1.2rem;
+                    border-radius: 2rem;
 
                     &:hover, &:active {
 

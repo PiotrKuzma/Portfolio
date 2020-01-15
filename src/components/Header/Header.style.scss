@@ -36,9 +36,9 @@ $pure: #45A29E;
 
 
         &__burger {
-            background-color: none;
-            background-color: $void;
-            width: 3.1rem;
+            border: 2px solid $pure;
+            background-color: $navy;
+            width: 3.3rem;
             padding: 0.3rem;
            @media only screen and (min-width: 750px) {
             display: none;
@@ -70,12 +70,12 @@ $pure: #45A29E;
                     text-decoration: none;
                     color:$sand;
                     width: 6rem;
-                    height: 4rem;
-                    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 94%, 24% 94%, 0% 60%, 10% 20%);
+                    height: 3rem;
+                    border-radius: 2rem;
                     background-image: linear-gradient(to right bottom,
                     rgba($pure, 0.4),
-                    rgba(transparent, 0.2));
-                    padding: 1rem;
+                    rgba($striking, 0.2));
+                    line-height: 3rem;
                     text-align: center;
                     
                     
