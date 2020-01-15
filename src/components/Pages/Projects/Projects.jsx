@@ -29,7 +29,7 @@ class Projects extends Component {
                   id: 2,
                   websiteUrl: 'https://piotrkuzma.github.io/Maestroo/index.html',
                   codeUrl: 'https://github.com/PiotrKuzma/Maestroo',
-                  desc: 'Commercial, focused on more advanced css concepts like perspective, BEM and taking advantage of built-in browser functionalities.'
+                  desc: 'Focused on more advanced css like perspective, BEM and taking advantage of built-in browser functionalities.'
                   
                 },
                 {

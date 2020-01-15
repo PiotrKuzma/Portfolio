@@ -13,7 +13,7 @@ const Header = ({burgerFunctionality}) => (
             <div className="header__nav__links-container">
                 <ul className="header__nav__links-container__list">
                     <Link to='/' className="header__nav__links-container__list__item">Home</Link>
-                    <Link to='/Skills' className="header__nav__links-container__list__item shape">Skills</Link>
+                    <Link to='/Skills' className="header__nav__links-container__list__item">Skills</Link>
                     <Link to='/Projects' className="header__nav__links-container__list__item">Projects</Link>
                 </ul>
             </div>
