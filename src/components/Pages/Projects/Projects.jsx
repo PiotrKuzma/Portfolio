@@ -36,7 +36,7 @@ class Projects extends Component {
                   title: 'Recipe App',
                   imageUrl: 'https://repository-images.githubusercontent.com/225430969/6d839f00-20ea-11ea-9978-fe054b1b78ee',
                   id: 3,
-                  websiteUrl: 'https://crazy-spoons.herokuapp.com/',
+                  websiteUrl: 'https://crazy-spoons.netlify.com/',
                   codeUrl: 'https://github.com/PiotrKuzma/Recipes',
                   desc: 'React app that allows to search for recipe 5x per minute due to API free plan. Hook-based state.'
                   
