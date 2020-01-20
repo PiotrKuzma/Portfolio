@@ -40,17 +40,18 @@ class Projects extends Component {
                   codeUrl: 'https://github.com/PiotrKuzma/Recipes',
                   desc: 'React app that allows to search for recipe 5x per minute due to API free plan. Hook-based state.'
                   
-                },
-                {
-                  title: 'Shopping Cart',
-                  imageUrl: 'https://repository-images.githubusercontent.com/223277486/81c79c00-20ea-11ea-89e7-56f02dabe902',
-                  
-                  id: 4,
-                  websiteUrl: 'https://piotrkuzma.github.io/Shop/',
-                  codeUrl: 'https://github.com/PiotrKuzma/Shop',
-                  desc: 'This project is still in build process.'
-                  
                 }
+                // Development 
+                // {
+                //   title: 'Shopping Cart',
+                //   imageUrl: 'https://repository-images.githubusercontent.com/223277486/81c79c00-20ea-11ea-89e7-56f02dabe902',
+                  
+                //   id: 4,
+                //   websiteUrl: 'https://piotrkuzma.github.io/Shop/',
+                //   codeUrl: 'https://github.com/PiotrKuzma/Shop',
+                //   desc: 'This project is still in build process.'
+                  
+                // }
                
               ]
         }
