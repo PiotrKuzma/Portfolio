@@ -78,10 +78,10 @@ const Skills = () => (
                 <div className="section__example__container">
                     <Code className="section__example__container__icon"/>
                     <p className="section__example__container__text">
-                        * Can create reusable components with classes and fetch external data.<br/>
-                        * Is familiar with devtools, when searching for bugs.<br/>
-                        * Able to design simple architecture when guided.<br/>
-                        * Fixed bugs with documentation.
+                        I can create reusable components with classes and fetch external data.<br/>
+                        I'm familiar with devtools, when searching for bugs.<br/>
+                        I'm able to design simple architecture when guided.<br/>
+                        I fixed bugs with documentation.
                         
 
                     </p>
