@@ -36,7 +36,7 @@ $pure: #45a29e;
         height: 480px;
         margin-bottom: 1rem;
         overflow: hidden;
-        box-shadow: -5px 3px 3px -1px $pure;
+        box-shadow: -5px 3px 3px -1px $sand;
 
         &__img {
           width: 100%;
@@ -77,7 +77,7 @@ $pure: #45a29e;
           text-align: center;
 
           padding: 1.2rem;
-          border: 2px solid $pure;
+          border: 2px solid $sand;
 
           &:hover,
           &:active {
@@ -97,7 +97,7 @@ $pure: #45a29e;
           text-align: center;
 
           padding: 1.2rem;
-          border: 2px solid $pure;
+          border: 2px solid $sand;
 
           &:hover,
           &:active {

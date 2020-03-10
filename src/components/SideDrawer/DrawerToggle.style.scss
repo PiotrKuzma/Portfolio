@@ -17,7 +17,7 @@ $pure: #45A29E;
     box-sizing: border-box;
     justify-content: space-around;
     
-
+   
 
     &__line {
         background-color: $pure;
@@ -26,11 +26,5 @@ $pure: #45A29E;
 
     }
 
-    
-}
-.toggle-button:focus, :active {
-
-  outline: none;
-  
     
 }

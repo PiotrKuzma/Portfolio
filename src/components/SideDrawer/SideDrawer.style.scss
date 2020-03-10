@@ -9,7 +9,7 @@ $pure: #45A29E;
     background-image: linear-gradient(to right bottom,
             rgba($void, 1),
             rgba($navy, 1));
-    box-shadow: 2px 0px 2px $pure;
+    box-shadow: 2px 0px 2px $sand;
     position: fixed;
     top: 0;
     left: 0;
@@ -44,7 +44,7 @@ $pure: #45A29E;
             width: 10rem;
             text-align: center;
             
-            border: 1px solid $pure;
+            border: 1px solid $sand;
         }
 
         &__item {
