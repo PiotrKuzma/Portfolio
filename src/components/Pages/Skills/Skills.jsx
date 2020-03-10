@@ -90,7 +90,7 @@ const Skills = () => (
                     <Chart className="section__example__container__icon"/>
                     <p className="section__example__container__text">
                         I work in Agile, speak with clients and teammates in english,
-                        polish and czech. Problem solving is fun and I have good skills in workload management.
+                        polish and czech. I love problem solving and I have good skills in workload management.
                         In my work I used ticket managers, sharepoint and implemented many 
                         quality and time-saving improvements for the company.
 

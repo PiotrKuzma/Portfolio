@@ -45,9 +45,9 @@ class Projects extends Component {
                     title: 'Budget App',
                     imageUrl: 'https://repository-images.githubusercontent.com/235209711/dbaa1800-51a6-11ea-9696-35fbd37dc32e',
                     id: 4,
-                    websiteUrl: 'https://piotrkuzma.github.io/BudgetBook/',
+                    websiteUrl: 'https://budget-balance.netlify.com/',
                     codeUrl: 'https://github.com/PiotrKuzma/BudgetBook',
-                    desc: 'JS app with MVC pattern that allows to simulate monthly expenses. Pure JS modules and DOM traversing.'
+                    desc: 'React app, that allows to simulate monthly expenses.Developed with useState hooks.'
                     
                 }
                

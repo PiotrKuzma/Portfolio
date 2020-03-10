@@ -38,7 +38,7 @@ $pure: #45A29E;
         padding: 1.5rem;
         
         margin-bottom: 1rem;
-
+        
         &__about {
             display: flex;
             flex-flow: row wrap;
@@ -48,18 +48,19 @@ $pure: #45A29E;
             
 
             &__img-container {
-                width: 280px;
-                height: 280px;
+                width: 190px;
+                height: 190px;
                 border-radius: 50%;
                 
-                background-image: url(./sunny.jpg);
-                background-position: center;
+                background-image: url(./photo.png);
+                background-position: bottom;
                 background-repeat: no-repeat;
-                
+                border: 2px solid $pure;
                 overflow: hidden;
-                margin-top: 5rem;
+                margin-top: 7.5rem;
                 margin-right: 3rem;
-                box-shadow: 0 1rem 1.5rem rgba($pure, 0.15);
+                
+                
 
                 @media only screen and(max-width:800px) {
                     margin-right: 0rem;
@@ -139,7 +140,7 @@ $pure: #45A29E;
             }
 
             &__email {
-                color: $pure;
+                color: $sand;
 
             }
         }

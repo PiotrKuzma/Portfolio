@@ -17,6 +17,8 @@ $pure: #45A29E;
     max-width: 30rem;
     z-index: 2;
 
+   
+
     &__list {
 
         list-style: none;
@@ -25,6 +27,14 @@ $pure: #45A29E;
         justify-content: center;
         margin-left: 3rem;
         height: 100vh;
+
+        &__picture {
+            width:20rem;
+
+            @media only screen and (max-width: 410px) {
+                width:15rem;
+            }
+        }
         
        
 
@@ -33,7 +43,7 @@ $pure: #45A29E;
             padding:0.5rem;
             width: 10rem;
             text-align: center;
-            border-radius: 2rem;
+            
             border: 1px solid $pure;
         }
 

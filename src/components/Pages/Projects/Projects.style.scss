@@ -1,157 +1,114 @@
-$sand: #C5C6C7;
-$navy: #1F2833;
-$void: #0B0C10;
-$striking: #66FCF1;
-$pure: #45A29E;
+$sand: #c5c6c7;
+$navy: #1f2833;
+$void: #0b0c10;
+$striking: #66fcf1;
+$pure: #45a29e;
 
 .Projects {
+  margin-top: 7rem;
 
-    margin-top: 7rem;
+  &__title {
+    font-size: 1.7rem;
+    margin-top: 6rem;
+    text-align: center;
+    color: $sand;
+  }
 
-    &__title {
+  &__board {
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
 
-        font-size: 1.7rem;
-        margin-top: 6rem;
-        text-align: center;
+    &__item {
+      width: 18rem;
+      height: auto;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+
+      &__img-container {
+        width: 228px;
+        height: 480px;
+        margin-bottom: 1rem;
+        overflow: hidden;
+        box-shadow: -5px 3px 3px -1px $pure;
+
+        &__img {
+          width: 100%;
+          height: 100%;
+
+          object-fit: cover;
+
+          object-position: left;
+        }
+      }
+
+      &__title {
         color: $sand;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        align-self: center;
+      }
 
-        
+      &__desc {
+        font-size: 0.8rem;
+        height: 6rem;
+        color: $sand;
+        max-width: 14rem;
+      }
 
-      
-    }
-
-    &__board {
-        margin-top: 1rem;
+      &__links {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: center;
+        margin-top: 1rem;
 
+        display: flex;
+        padding-left: 1.5rem;
 
-        &__item {
+        &__website {
+          display: block;
+          margin-right: 1.5rem;
+          width: 5rem;
+          height: 4rem;
+          text-align: center;
 
-            width: 18rem;
-            height: auto;
-            margin-bottom: 2rem;
-            margin-top: 2rem;
-            display: flex;
-            flex-direction: column;
-            
-            align-items: center;
+          padding: 1.2rem;
+          border: 2px solid $pure;
 
-            &__img-container {
+          &:hover,
+          &:active {
+            box-shadow: -5px 6px 6px -1px $pure;
+          }
 
-                width: 228px;
-                height: 480px;
-                margin-bottom: 1rem;
-                overflow: hidden;
-                box-shadow: 0 1rem 1.5rem rgba($pure, 0.15);
-
-               
-                
-
-
-                &__img {
-
-                    width: 100%;
-                    height: 100%;
-                    
-                    object-fit: cover;
-                    
-                    object-position: left;
-
-                }
-            }
-
-            &__title {
-                color: $sand;
-                font-size: 1.2rem;
-                margin-bottom: 1rem;
-                align-self: center;
-
-            }
-
-            &__desc {
-                font-size: 0.8rem;
-                height: 6rem;
-                color: $sand;
-                max-width:14rem;
-            }
-
-            &__links {
-
-                display: flex;
-                margin-top: 1rem;
-                
-                display: flex;
-                padding-left: 1.5rem;
-               
-
-                &__website {
-
-                    display: block;
-                    margin-right: 1.5rem;
-                    width: 5rem;
-                    height: 4rem;
-                    text-align: center;
-                    background-image: linear-gradient(to right bottom,
-                    rgba($pure, 0.4),
-                    rgba($striking, 0.2));
-                    padding: 1.2rem;
-                    border-radius: 2rem;
-
-                    &:hover, &:active {
-
-                        background-image: linear-gradient(to right bottom,
-                        rgba($void, 0.4),
-                        rgba(transparent, 0.2));
-                    }
-                   
-    
-                    &__icon {
-                        fill: $sand;
-                        
-                        
-                    }
-    
-                }
-    
-                &__code {
-    
-                    display: block;
-                    margin-right: 1.5rem;
-                    width: 5rem;
-                    height: 4rem;
-                    text-align: center;
-                    background-image: linear-gradient(to right bottom,
-                    rgba($pure, 0.4),
-                    rgba($striking, 0.2));
-                    padding: 1.2rem;
-                    border-radius: 2rem;
-
-                    &:hover, &:active {
-
-                        background-image: linear-gradient(to right bottom,
-                        rgba($void, 0.4),
-                        rgba(transparent, 0.2));
-                    }
-    
-                    &__icon {
-                        fill: $sand;
-    
-                       
-                    }
-    
-                }
-            
-            
-            }
-
-
-
-            
-
+          &__icon {
+            fill: $sand;
+          }
         }
 
+        &__code {
+          display: block;
+          margin-right: 1.5rem;
+          width: 5rem;
+          height: 4rem;
+          text-align: center;
+
+          padding: 1.2rem;
+          border: 2px solid $pure;
+
+          &:hover,
+          &:active {
+            box-shadow: -5px 6px 6px -1px $pure;
+          }
+
+          &__icon {
+            fill: $sand;
+          }
+        }
+      }
     }
+  }
 }

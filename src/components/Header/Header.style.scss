@@ -1,107 +1,86 @@
-$sand: #C5C6C7;
-$navy: #1F2833;
-$void: #0B0C10;
-$striking: #66FCF1;
-$pure: #45A29E;
+$sand: #c5c6c7;
+$navy: #1f2833;
+$void: #0b0c10;
+$striking: #66fcf1;
+$pure: #45a29e;
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: $navy;
-    height: 7rem;
-    z-index: 2;
-    padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $navy;
+  height: 7rem;
+  z-index: 2;
+  padding: 1rem;
+
+  @media only screen and (max-width: 750px) {
+    height: 3rem;
+  }
+  @media only screen and (max-width: 749px) {
+    height: 0.01rem;
+  }
+
+  &__nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 1rem 1rem 4rem 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 
     @media only screen and (max-width: 750px) {
-        height: 3rem;
-    }
-    @media only screen and (max-width: 749px) {
-       height: 0.01rem;
+      padding: 1rem;
     }
 
-    &__nav {
+    &__burger {
+      border: 2px solid $pure;
+      background-color: $void;
+      width: 3.3rem;
+      padding: 0.3rem;
+      @media only screen and (min-width: 750px) {
+        display: none;
+      }
+    }
 
+    &__links-container {
+      width: 40rem;
+      display: none;
+      @media only screen and (min-width: 750px) {
+        display: block;
+      }
+
+      &__list {
         display: flex;
-        height: 100%;
-        align-items: center;
-        padding: 1rem 1rem 4rem 1rem;
-        margin-top: 1.5rem;
-        margin-bottom: 1rem;
+        flex-flow: row wrap;
+        justify-content: space-around;
 
-        @media only screen and (max-width: 750px) {
-            padding: 1rem;
+        &__item {
+          min-width: 3rem;
+          width: auto;
+          height: 2.2rem;
+          letter-spacing: 0.5px;
+          line-height: 2rem;
+          padding: 0 35px 0 35px;
+          font-size: 15px;
+          background: none;
+          color: $sand;
+          text-decoration: none;
+          font-family: Nunito;
+          font-weight: bolder;
+          border: 2px solid $pure;
+          cursor: pointer;
+          margin-bottom: 1.3rem;
+          transition: all 0.15s ease-in-out;
         }
 
-
-        &__burger {
-            border: 2px solid $pure;
-            background-color: $navy;
-            width: 3.3rem;
-            padding: 0.3rem;
-           @media only screen and (min-width: 750px) {
-            display: none;
-            
-            
-
-           }
-
+        &__item:hover {
+            box-shadow: -5px 6px 6px -1px $pure;
         }
+        &__item:focus { outline: none; }
+        &__item:active { transform: translateY(2px); }
 
-        &__links-container {
-            width: 40rem;
-            display: none;
-            @media only screen and (min-width: 750px) {
-                display: block;
-    
-               }
-           
-            &__list {
-
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: space-around;
-
-
-
-                &__item {
-
-                    text-decoration: none;
-                    color:$sand;
-                    width: 6rem;
-                    height: 3rem;
-                    border-radius: 2rem;
-                    background-image: linear-gradient(to right bottom,
-                    rgba($pure, 0.4),
-                    rgba($striking, 0.2));
-                    line-height: 3rem;
-                    text-align: center;
-                    
-                    
-                   
-
-                   
-                }
-                
-                &__item:hover, &__item:active {
-
-                    color: $pure;
-                    background-image: linear-gradient(to right bottom,
-                    rgba($void, 0.4),
-                    rgba(transparent, 0.2));
-                }
-
-              
-            }
-
-        }
-
-
+      }
     }
-
-
-
-
-
+  }
 }
