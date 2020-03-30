@@ -1,17 +1,22 @@
 $sand: #c5c6c7;
 $navy: #1f2833;
 $void: #0b0c10;
-$striking: #66fcf1;
 $pure: #45a29e;
 
 .Projects {
   margin-top: 7rem;
 
   &__title {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     margin-top: 6rem;
     text-align: center;
     color: $sand;
+    font-family: Kanit;
+    letter-spacing: 1.5px;
+
+    @media only screen and(max-width: 410px) {
+      font-size: 1.4rem;
+    }
   }
 
   &__board {

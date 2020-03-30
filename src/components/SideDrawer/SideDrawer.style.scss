@@ -1,69 +1,59 @@
-$sand: #C5C6C7;
-$navy: #1F2833;
-$void: #0B0C10;
-$striking: #66FCF1;
-$pure: #45A29E;
+$sand: #c5c6c7;
+$navy: #1f2833;
+$void: #0b0c10;
+$pure: #45a29e;
 
 .sideNav {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($void, 1),
+    rgba($navy, 1)
+  );
+  box-shadow: 2px 0px 2px $sand;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  max-width: 30rem;
+  z-index: 2;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
     height: 100vh;
-    background-image: linear-gradient(to right bottom,
-            rgba($void, 1),
-            rgba($navy, 1));
-    box-shadow: 2px 0px 2px $sand;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 99vw;
-    max-width: 30rem;
-    z-index: 2;
 
-   
+    &__picture {
+      width: 20rem;
 
-    &__list {
-
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 3rem;
-        height: 100vh;
-
-        &__picture {
-            width:20rem;
-
-            @media only screen and (max-width: 410px) {
-                width:15rem;
-            }
-        }
-        
-       
-
-        li {
-            margin: 1.5rem 0;
-            padding:0.5rem;
-            width: 10rem;
-            text-align: center;
-            
-            border: 1px solid $sand;
-        }
-
-        &__item {
-
-            text-decoration: none;
-            color: $sand;
-            font-size: 1.3rem;
-            font-weight: 500;
-            letter-spacing: 3px;
-    
-        }
-    
-        &__item:hover, &__item:active {
-    
-            color: $pure;
-        }
-
+      @media only screen and (max-width: 410px) {
+        width: 15rem;
+      }
     }
 
-   
+    li {
+      margin: 1.5rem 0;
+      padding: 0.5rem;
+      width: 10rem;
+      text-align: center;
 
+      border: 1px solid $sand;
+    }
+
+    &__item {
+      text-decoration: none;
+      color: $sand;
+      font-size: 1.3rem;
+      font-weight: 500;
+      letter-spacing: 3px;
+    }
+
+    &__item:hover,
+    &__item:active {
+      color: $pure;
+    }
+  }
 }

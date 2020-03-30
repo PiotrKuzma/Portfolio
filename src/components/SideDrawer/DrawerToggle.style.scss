@@ -1,30 +1,23 @@
-$sand: #C5C6C7;
-$navy: #1F2833;
-$void: #0B0C10;
-$striking: #66FCF1;
-$pure: #45A29E;
+$sand: #c5c6c7;
+$navy: #1f2833;
+$void: #0b0c10;
+$pure: #45a29e;
 
 .toggle-button {
+  height: 2rem;
+  width: 2.3rem;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: space-around;
 
-    height: 2rem;
-    width: 2.3rem;
-    background: transparent;
-    cursor: pointer;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    box-sizing: border-box;
-    justify-content: space-around;
-    
-   
-
-    &__line {
-        background-color: $pure;
-        width: 2.5rem;
-        height: 2px;
-
-    }
-
-    
+  &__line {
+    background-color: $pure;
+    width: 2.5rem;
+    height: 2px;
+  }
 }

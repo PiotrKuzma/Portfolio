@@ -1,102 +1,84 @@
-$sand: #C5C6C7;
-$navy: #1F2833;
-$void: #0B0C10;
-$striking: #66FCF1;
-$pure: #45A29E;
+$sand: #c5c6c7;
+$navy: #1f2833;
+$void: #0b0c10;
+$pure: #45a29e;
 
 .SkillsPage {
+  margin-top: 10rem;
 
-    margin-top: 10rem;
+  &__title {
+    font-size: 1.9rem;
+    margin-top: 6rem;
+    text-align: center;
+    color: $sand;
+    font-family: Kanit;
+    letter-spacing: 1.5px;
 
-    &__title {
+    @media only screen and(max-width: 410px) {
+      font-size: 1.4rem;
+    }
+  }
 
-        font-size: 1.7rem;
-        margin-top: 6rem;
-        text-align: center;
+  .section__skills {
+    padding: 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    @media only screen and (max-width: 500px) {
+      padding: 1rem;
+    }
+
+    &__detail {
+      width: 20rem;
+      height: auto;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      margin: 2rem;
+
+      &__icon {
+        transform: scale(2.1);
+      }
+
+      &__name {
+        color: $pure;
+        margin-top: 2rem;
+      }
+
+      &__desc {
+        margin-top: 1rem;
         color: $sand;
-
-        @media only screen and(max-width: 410px) {
-            font-size: 1.4rem;
-        }
-
+      }
     }
+  }
 
-    .section__skills {
+  .section__example {
+    padding: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
 
-        padding: 3rem;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
+    &__container {
+      width: 20rem;
+      padding: 1.5rem;
+      margin: 2rem;
 
-        @media only screen and (max-width: 500px) {
+      @media only screen and (max-width: 500px) {
+        padding: 0.5rem;
+      }
 
-            padding: 1rem;
-        }
-
-
-
-
-        &__detail {
-
-            width: 20rem;
-            height: auto;
-            padding: 1rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            
-            margin: 2rem;
-
-
-            &__icon {
-
-                transform: scale(2.1);
-            }
-
-            &__name {
-
-                color: $pure;
-                margin-top :2rem;
-            }
-
-            &__desc {
-
-                margin-top :1rem;
-                color: $sand;
-                
-            }
-        }
+      &__icon {
+        transform: scale(1.7);
+        fill: $pure;
+        margin-bottom: 2rem;
+      }
+      &__text {
+        color: $sand;
+      }
     }
-
-    .section__example {
-
-        padding: 2rem;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        margin-top: 3rem;
-
-        &__container {
-            width: 20rem;
-            padding: 1.5rem;
-            margin: 2rem;
-
-            @media only screen and (max-width: 500px) {
-
-                padding: 0.5rem;
-            }
-
-            &__icon {
-
-                transform: scale(1.7);
-                fill: $pure;
-                margin-bottom: 2rem;
-            }
-            &__text {
-                color: $sand;
-
-            }
-        }
-    }
-
+  }
 }

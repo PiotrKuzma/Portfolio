@@ -6,8 +6,8 @@ import { ReactComponent as Linked } from "./icons/linkedin.svg";
 const Home = () => (
   <div className="HomePage">
     <h1 className="HomePage__title">
-      Piotr Kuźma, <br></br>
-      junior <span className="dev">Front-End Developer</span>
+      Piotr Kuźma<br></br>
+       <span className="dev">Front-End Developer</span>
     </h1>
     <section className="HomePage__section">
       <div className="HomePage__section__about">
