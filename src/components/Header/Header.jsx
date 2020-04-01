@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './Header.style.scss'
 import DrawerToggle from '../SideDrawer/DrawerToggle'
 
@@ -12,9 +12,9 @@ const Header = ({burgerFunctionality}) => (
             
             <div className="header__nav__links-container">
                 <ul className="header__nav__links-container__list">
-                    <Link to='/' className="header__nav__links-container__list__item">About</Link>
-                    <Link to='/Skills' className="header__nav__links-container__list__item">Skills</Link>
-                    <Link to='/Projects' className="header__nav__links-container__list__item">Projects</Link>
+                    <NavLink to='/' className="header__nav__links-container__list__item">About</NavLink>
+                    <NavLink to='/Skills' className="header__nav__links-container__list__item">Skills</NavLink>
+                    <NavLink to='/Projects' className="header__nav__links-container__list__item">Projects</NavLink>
                 </ul>
             </div>
         </nav>
