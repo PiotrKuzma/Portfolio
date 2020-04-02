@@ -18,7 +18,7 @@ const Home = () => {
     let descriptionP1 = description.children[0];
     let descriptionP2 = description.children[1];
     TweenMax.to(homeBox, 0, { css: { visibility: "visible" } });
-    tl.from(thumb, 1.2, { y: -120, opacity: 0, ease: Power3.easeOut }, 'start');
+    tl.from(thumb, 2.3, { y: -150, opacity: 0, ease: Power3.easeOut }, 'start');
 
     tl.staggerFrom(
       [descriptionP1, descriptionP2, contact],
