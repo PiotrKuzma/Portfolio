@@ -24,18 +24,9 @@ class Projects extends Component {
                   
                 },
                 {
-                  title: 'Landing Page',
-                  imageUrl: 'https://repository-images.githubusercontent.com/219338446/40cf8780-20ea-11ea-8738-c1933d92a3fe',
-                  id: 2,
-                  websiteUrl: 'https://piotrkuzma.github.io/Maestroo/index.html',
-                  codeUrl: 'https://github.com/PiotrKuzma/Maestroo',
-                  desc: 'Focused on more advanced css like perspective, BEM and taking advantage of built-in browser functionalities.'
-                  
-                },
-                {
                   title: 'Recipe App',
                   imageUrl: 'https://repository-images.githubusercontent.com/225430969/6d839f00-20ea-11ea-9978-fe054b1b78ee',
-                  id: 3,
+                  id: 2,
                   websiteUrl: 'https://crazy-spoons.netlify.com/',
                   codeUrl: 'https://github.com/PiotrKuzma/Recipes',
                   desc: 'React app that allows to search for recipe 5x per minute due to API free plan. Hook-based state.'
@@ -44,7 +35,7 @@ class Projects extends Component {
                 {
                     title: 'Budget App',
                     imageUrl: 'https://repository-images.githubusercontent.com/235209711/dbaa1800-51a6-11ea-9696-35fbd37dc32e',
-                    id: 4,
+                    id: 3,
                     websiteUrl: 'https://budget-balance.netlify.com/',
                     codeUrl: 'https://github.com/PiotrKuzma/BudgetBook',
                     desc: 'React app, that allows to simulate monthly expenses.Developed with useState hooks.'
