@@ -22,7 +22,7 @@ class App extends Component {
     });
   };
 
-  navClose = () => {
+           navClose = () => {
     this.setState({ sideNav: false });
   };
 

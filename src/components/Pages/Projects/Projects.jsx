@@ -18,7 +18,7 @@ class Projects extends Component {
                   title: 'Vet Clinic',
                   imageUrl: 'https://repository-images.githubusercontent.com/227220958/bedf5e80-20e9-11ea-9ad2-f7ebba826678',
                   id: 1,
-                  websiteUrl: 'https://piotrkuzma.github.io/Weterynaria/',
+                  websiteUrl: 'https://weterynaria-busko.pl/',
                   codeUrl: 'https://github.com/PiotrKuzma/Weterynaria',
                   desc: 'Website developed for my family. Implemented responsive web design, gallery, accordion and phone functionality.'
                   
