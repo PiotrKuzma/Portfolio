@@ -5,11 +5,8 @@ $pure: #45a29e;
 
 .sideNav {
   height: 100vh;
-  background-image: linear-gradient(
-    to right bottom,
-    rgba($void, 1),
-    rgba($navy, 1)
-  );
+  background-image: url('../../bg.svg');
+  background-size: cover;
   box-shadow: 2px 0px 2px $sand;
   position: fixed;
   top: 0;
@@ -26,13 +23,6 @@ $pure: #45a29e;
     margin-left: 3rem;
     height: 100vh;
 
-    &__picture {
-      width: 20rem;
-
-      @media only screen and (max-width: 410px) {
-        width: 15rem;
-      }
-    }
 
     li {
       margin: 1.5rem 0;

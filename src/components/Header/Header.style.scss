@@ -1,6 +1,6 @@
 $sand: #c5c6c7;
 $navy: #1f2833;
-$void: #0b0c10;
+$void: #141414;
 $pure: #45a29e;
 
 .header {
@@ -8,7 +8,6 @@ $pure: #45a29e;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: $navy;
   height: 7rem;
   z-index: 2;
   padding: 1rem;
@@ -60,21 +59,19 @@ $pure: #45a29e;
           height: 2.2rem;
           letter-spacing: 1.5px;
           line-height: 2rem;
-          padding: 0 35px 0 35px;
           font-size: 19px;
           background: none;
           color: $sand;
           text-decoration: none;
-          font-family: Kanit;
-          font-weight: 500;
-          border: 2px solid $sand;
+          font-family: Work Sans;
+          font-weight: 900;
           cursor: pointer;
           margin-bottom: 1.3rem;
           transition: all 0.15s ease-in-out;
         }
 
         &__item:hover {
-            box-shadow: -5px 6px 6px -1px $pure;
+          color: $pure;
         }
         &__item:focus { outline: none; }
         &__item:active { transform: translateY(2px); }

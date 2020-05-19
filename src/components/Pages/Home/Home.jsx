@@ -45,11 +45,10 @@ const Home = () => {
             className="HomePage__section__about__desc"
           >
             <p className="HomePage__section__about__desc__text">
-              Welcome to my portfolio. My name is Piotr and I am experienced{" "}
-              <span className="strong">problem-solver</span> with accounting
-              background, who started a new journey with code. I chose
-              self-taught path and worked with other professionals to grow.
-              Check my projects and skills, to learn more about my work.
+            I'm an <span className="strong">analyst</span>, strategist, a strong INTJ personality.
+            Every day I try to learn something new, but I don't forget about cultivating relationships.
+            <span className="strong"> Solving queries</span> became my passion and most valuable skill.
+            I became interested in <span className="strong">programming</span> after working with other developers as accountant.
             </p>
             <p className="HomePage__section__about__desc__text">
               With kind regards, <br></br>
