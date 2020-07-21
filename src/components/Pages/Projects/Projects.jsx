@@ -21,7 +21,6 @@ class Projects extends Component {
                   websiteUrl: 'https://weterynaria-busko.pl/',
                   codeUrl: 'https://github.com/PiotrKuzma/Weterynaria',
                   desc: 'Website developed for my family. Implemented responsive web design, gallery, accordion and phone functionality.'
-                  
                 },
                 {
                   title: 'Recipe App',
@@ -30,7 +29,6 @@ class Projects extends Component {
                   websiteUrl: 'https://crazy-spoons.netlify.com/',
                   codeUrl: 'https://github.com/PiotrKuzma/Recipes',
                   desc: 'React app that allows to search for recipe 5x per minute due to API free plan. Hook-based state.'
-                  
                 },
                 {
                     title: 'Budget App',
@@ -39,50 +37,36 @@ class Projects extends Component {
                     websiteUrl: 'https://budget-balance.netlify.com/',
                     codeUrl: 'https://github.com/PiotrKuzma/BudgetBook',
                     desc: 'React app, that allows to simulate monthly expenses.Developed with useState hooks.'
-                    
                 }
-               
-               
-              ]
+            ]
         }
     }
 
-
     render() {
-
         return(
-   
     <div className="Projects">
         <h2 className="Projects__title">My projects</h2>
-
         <section className="Projects__board">
                 {
                     this.state.portfolio.map(({id, imageUrl, title, desc, websiteUrl, codeUrl}) => (
                         <div key={id} className="Projects__board__item">
                             <h2 className="Projects__board__item__title">{title}</h2>
                             <div className="Projects__board__item__img-container">
-                                <img src={imageUrl} className="Projects__board__item__img-container__img"/>
+                                <img src={imageUrl} className="Projects__board__item__img-container__img" alt={title}/>
                             </div>
                             <p className="Projects__board__item__desc">{desc}</p>
                             <div className="Projects__board__item__links">
-                            <a href={websiteUrl} className="Projects__board__item__links__website" rel="noopener" target="_blank">
+                            <a href={websiteUrl} className="Projects__board__item__links__website" rel="noopener noreferrer" target="_blank">
                                 <Display className="Projects__board__item__links__website__icon"/>
                             </a>
-
-                            <a href={codeUrl} className="Projects__board__item__links__code" rel="noopener" target="_blank">
+                            <a href={codeUrl} className="Projects__board__item__links__code" rel="noopener noreferrer" target="_blank">
                                 <Code className="Projects__board__item__links__code__icon"/>
                             </a>
                             </div>
-
-
-
                         </div>
                     ))
                 }
-
-
         </section>
-        
     </div>
     ) }
 }

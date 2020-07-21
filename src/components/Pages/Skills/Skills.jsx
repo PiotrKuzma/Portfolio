@@ -59,7 +59,8 @@ const Skills = () => (
                 </div>
                 <p className="section__skills__detail__desc">
                     Routing and with-router, basic Hooks, component-driven attitude.
-                    I'm mesmerized by all solutions that Gatsby and Next are provided with and it's currently my goal to learn these technologies. &#129505;
+                    I'm mesmerized by all solutions that Gatsby and Next are provided with and it's currently my goal to learn these technologies. 
+                    <span role="img" aria-label="love">&#129505;</span>
                 </p>
             </div>
             <div className="section__skills__detail">

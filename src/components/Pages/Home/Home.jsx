@@ -59,13 +59,13 @@ const Home = () => {
       </section>
 
       <section ref={el => (contact = el)} className="contact">
-        <h3 className="contact__title">You'll find me here: &#128521;</h3>
+        <h3 className="contact__title">You'll find me here: <span role="img" aria-label="wink">&#128521;</span></h3>
         <div className="contact__container">
           <a
             className="contact__container__link"
             href="https://github.com/PiotrKuzma"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <Github className="contact__container__link__icon" />
           </a>
@@ -73,7 +73,7 @@ const Home = () => {
             className="contact__container__link"
             href="https://www.linkedin.com/in/piotr-ku%C5%BAma-a9861199/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <Linked className="contact__container__link__icon" />
           </a>
