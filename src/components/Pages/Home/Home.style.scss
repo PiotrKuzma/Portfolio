@@ -35,16 +35,19 @@ $pure: #ffbf50;
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
+      align-items: center;
 
       &__img-container {
-        width: 280px;
-        height: 420px;
-        background-image: url(./PKprof.PNG);
-        background-position: bottom;
-        background-repeat: no-repeat;
+        width: 220px;
+        height: 340px;
         overflow: hidden;
         margin-right: 3rem;
         border-bottom: 4px solid $pure;
+
+        &__img {
+          width: 100%;
+          height: auto;
+        }
 
         @media only screen and(max-width: 719px) {
           margin-right: 0rem;

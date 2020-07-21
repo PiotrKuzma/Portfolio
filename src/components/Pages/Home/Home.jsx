@@ -39,7 +39,9 @@ const Home = () => {
           <div
             ref={el => (thumb = el)}
             className="HomePage__section__about__img-container"
-          ></div>
+          >
+            <img className="HomePage__section__about__img-container__img" alt="profile" src= {require('./PKprof.PNG')}/>
+          </div>
           <div
             ref={el => (description = el)}
             className="HomePage__section__about__desc"

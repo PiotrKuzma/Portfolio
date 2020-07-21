@@ -4,9 +4,6 @@ import { Component } from 'react'
 import {ReactComponent as Code } from './icons/code.svg'
 import {ReactComponent as Display } from './icons/display.svg'
 
-
-
-
 class Projects extends Component {
 
     constructor() {
