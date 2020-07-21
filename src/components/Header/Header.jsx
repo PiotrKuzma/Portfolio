@@ -9,7 +9,6 @@ const Header = ({burgerFunctionality}) => (
             <div className="header__nav__burger">
                 <DrawerToggle click={burgerFunctionality}/>
             </div>
-            
             <div className="header__nav__links-container">
                 <ul className="header__nav__links-container__list">
                     <NavLink to='/' className="header__nav__links-container__list__item">About</NavLink>

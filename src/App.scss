@@ -1,7 +1,7 @@
 $sand: #c5c6c7;
 $navy: #1f2833;
-$void: #141414;
-$pure: #45a29e;
+$void: #1b1b1b;
+$pure: #ffbf50;
 
 *,
 *::after,
@@ -17,14 +17,10 @@ body {
   font-size: 1rem;
   line-height: 1.7;
   box-sizing: border-box;
-  background-image: url('./bg.svg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: $void;
 
   .wrapper {
-    max-width: 95rem;
+    max-width: 90rem;
     margin: 0 auto;
   }
 

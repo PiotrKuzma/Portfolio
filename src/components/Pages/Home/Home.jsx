@@ -13,12 +13,12 @@ const Home = () => {
 
   let tl = new TimelineLite();
 
-  //Animation Hook and GSAP 
+  //Animation Hook and GSAP
   useEffect(() => {
     let descriptionP1 = description.children[0];
     let descriptionP2 = description.children[1];
     TweenMax.to(homeBox, 0, { css: { visibility: "visible" } });
-    tl.from(thumb, 2.3, { y: -150, opacity: 0, ease: Power3.easeOut }, 'start');
+    tl.from(thumb, 2.3, { x: -60, opacity: 0, ease: Power3.easeOut }, 'start');
 
     tl.staggerFrom(
       [descriptionP1, descriptionP2, contact],
@@ -32,7 +32,7 @@ const Home = () => {
     <div ref={el => (homeBox = el)} className="HomePage">
       <h1 className="HomePage__title">
         Piotr Kuźma<br></br>
-        <span className="dev">Front-End Developer</span>
+        <span className="dev">Front-End Portfolio</span>
       </h1>
       <section className="HomePage__section">
         <div className="HomePage__section__about">
@@ -59,7 +59,7 @@ const Home = () => {
       </section>
 
       <section ref={el => (contact = el)} className="contact">
-        <h3 className="contact__title">Contact</h3>
+        <h3 className="contact__title">You'll find me here: &#128521;</h3>
         <div className="contact__container">
           <a
             className="contact__container__link"
@@ -77,9 +77,6 @@ const Home = () => {
           >
             <Linked className="contact__container__link__icon" />
           </a>
-          <div className="contact__container__email">
-            <p>kuzma.boh@gmail.com</p>
-          </div>
         </div>
       </section>
 
